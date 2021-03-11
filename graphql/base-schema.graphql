@@ -1,0 +1,7 @@
+type ToDo @model {
+  id: ID!
+  name: String!
+  creator: String!
+  comments: String
+  sampleJson: AWSJSON
+}
