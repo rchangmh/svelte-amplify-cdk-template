@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { Auth, ActivePage, Pages } from "./store"
+  import { Auth, ActivePage, Pages, UrlParams } from "./store"
   import { Content, Grid, Row, Column } from "carbon-components-svelte"
   import Theme from "./Theme.svelte"
   import Header from "./Header.svelte"

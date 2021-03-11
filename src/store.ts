@@ -8,3 +8,4 @@ export enum Pages {
 }
 export const ActivePage = writable(Pages.Create)
 export const AppName = "MyApp"
+export const UrlParams = writable(new URLSearchParams(window.location.search))
