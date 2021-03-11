@@ -93,35 +93,35 @@
 
 ## Commands (npm scripts)
 
-Svelte dev server
-```bash
-npm run dev
-```
-Svelte build
-```bash
-npm run build
-```
-TypeScript watch for CDK and Svelte
-```bash
-npm run watch
-```
-Generate GraphQL statements
-```bash
-npm run codegen
-```
-Destroy CDK stack
-```bash
-npm run cdk.destroy
-```
-Deploy CDK stack
-```bash
-npm run cdk.deploy
-```
-See CDK stack change set and generate `aws-exports.json`
-```bash
-npm run cdk.diff
-```
-Deploy CDK, build Svelte, and deploy website
-```bash
-npm run full.deploy
-```
+* Svelte dev server
+    ```bash
+    npm run dev
+    ```
+* Svelte build
+    ```bash
+    npm run build
+    ```
+* TypeScript watch for CDK and Svelte
+    ```bash
+    npm run watch
+    ```
+* Generate GraphQL statements
+    ```bash
+    npm run codegen
+    ```
+* Destroy CDK stack
+    ```bash
+    npm run cdk.destroy
+    ```
+* Deploy CDK stack
+    ```bash
+    npm run cdk.deploy
+    ```
+* See CDK stack change set and generate `aws-exports.json`
+    ```bash
+    npm run cdk.diff
+    ```
+* Deploy CDK, build Svelte, and deploy website
+    ```bash
+    npm run full.deploy
+    ```
