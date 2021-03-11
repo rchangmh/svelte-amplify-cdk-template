@@ -15,15 +15,13 @@
     "full.deploy": "cdk deploy --profile personal --require-approval never --outputs-file aws-exports.json && npm run build && cdk deploy --profile personal --require-approval never -c deploySite=true"
   },
   "dependencies": {
-    "aws-amplify": "latest",
-    "graphql-auth-transformer": "latest",
-    "graphql-connection-transformer": "latest",
-    "graphql-dynamodb-transformer": "latest",
-    "graphql-transformer-core": "latest"
-  },
-  "devDependencies": {
     "@aws-amplify/auth": "^3.4.21",
     "@aws-amplify/core": "^3.8.13",
+    "aws-amplify": "latest",
+    "carbon-components-svelte": "latest",
+    "carbon-icons-svelte": "latest"
+  },
+  "devDependencies": {
     "@aws-amplify/graphql-model-transformer": "latest",
     "@aws-cdk/assert": "1.91.0",
     "@aws-cdk/aws-appsync": "1.91.0",
@@ -41,8 +39,10 @@
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
     "aws-cdk": "1.91.0",
-    "carbon-components-svelte": "^0.28.0",
-    "carbon-icons-svelte": "^10.23.0",
+    "graphql-auth-transformer": "latest",
+    "graphql-connection-transformer": "latest",
+    "graphql-dynamodb-transformer": "latest",
+    "graphql-transformer-core": "latest",
     "jest": "^26.4.2",
     "rollup": "^2.3.4",
     "rollup-plugin-livereload": "^2.0.0",
