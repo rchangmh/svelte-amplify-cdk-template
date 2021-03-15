@@ -6,7 +6,8 @@ node_modules/
 package-lock.json
 
 # TS
-*.js
+src/*.js
+cdk/*.js
 *.js.map
 !jest.config.js
 *.d.ts
